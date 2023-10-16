@@ -1,0 +1,38 @@
+{
+  "name": "task-4",
+  "version": "1.0.0",
+  "description": "minimalistic web app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app.js --config nodemon.json",
+    "start": "node ./app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Vadim Chaiko",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "cross-env": "7.0.2",
+    "nodemon": "^2.0.21",
+    "sinon": "^9.2.4",
+    "superagent": "^6.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.0.3",
+    "mysql2": "^3.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.33.0",
+    "stoppable": "^1.1.0"
+  }
+}
