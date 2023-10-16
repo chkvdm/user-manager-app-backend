@@ -11,11 +11,7 @@ import { jwtStrategy } from './passport/jwtStrategy.js';
 
 const app = express();
 
-app.use(
-  cors({
-    origin: ['https://user-manager-app.onrender.com/login'],
-  })
-);
+app.use(cors());
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
