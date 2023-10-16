@@ -60,7 +60,7 @@ sequelize
       };
 
       return new Promise((resolve) => {
-        server.listen(config.port, () => {
+        server.listen(process.env.PORT || config.port, () => {
           console.log(`Server is running`);
           resolve(stopServer);
         });
